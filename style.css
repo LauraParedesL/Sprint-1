@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ :root{
+    background-color: #CFE1B9;
+ }
+
+ .encabezado{
+     background-color: #718355;
+}
+
+.link {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: medium;
+    color: white;
+    padding:20px;
+}
+.link:hover{
+    transform: scale(1.0);
+    background-color: #B5C99A;
+}
+
+.div1 {
+    width: 100%;
+    display: block;
+    margin: auto;
+    flex: 1;
+}
+
+.img-1{
+    width: 50px; 
+    height: 50px;
+    float: right;
+}
+
+#banner{
+    background-image: url(images/imagebanner.jpg);
+    height: 50vh;
+    width: 100%;
+}
+.mindy{
+    text-align: center;
+    background-color: white;
+    padding:20px;
+}
+.main{
+    display: inline-block;
+    background-color: #B5C99A;
+}
+
+.div2{
+    display: inline-block;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    width:400px;
+    margin-right:70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    padding:20px;
+    background-color: #CFE1B9;   
+}
+
+.div2 h2{
+    font-size: 35px;
+    text-align: center; 
+      
+}
+
+.img-2{
+   width: 400px;
+   height: 400px;
+   
+}
+.img-contain{
+    display: inline-block;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+}
+.div3{
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+    margin-left: 200px;
+    border-right-width: 100px;
+}
+.foot{
+    background-color: #718355;
+    justify-content: center;
+    width: 100%;
+    display: inline-block;
+}
+.foot-1{
+    text-align: center;
+    margin: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.au-1{
+    display:inline-block;
+    width:25rem;
+    height:25rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    align-self: center;
+    margin: 2rem;
+}
+ 
+.au-texto{
+    display: inline-block;
+    width: 12rem;
+    font-size: 1.7rem;
+    vertical-align: top;
+    margin-top: 7rem;
+    margin-left: 7rem;   
+}
+
+.main-au{
+    text-align: center;
+    background-color: #B5C99A;
+}
+
+.divs{
+    margin:2rem;
+}
+
+.div-contact{
+    
+}
+.img-contact{
+    display:inline-block;
+    width:25rem;
+    height:25rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    align-self: center;
+    margin: 2rem;
+}
+
+.text-contact{
+    display:block;
+    width: 24rem;
+    font-size: 1.7rem;
+    margin-left: 29rem;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.text-contact-2{
+    margin:4rem;
+    font-size: 2rem;
+}
+.links-contact{
+    width:100%;
+    background-color: white;
+    padding: 2rem;
+}
+.links-1{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    margin-right: 15rem;
+}
+
+.links-2{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
